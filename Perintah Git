@@ -1,0 +1,24 @@
+Langkah 1 (Membuat file awal)
+- git init
+- git remote add origin https://github.com/FirjaRakha/Algoritma-dan-Struktur-Data.git
+- git add .
+- git commit -m "teks bebas"
+(master)
+- git branch -m main (perubahan master ke main)
+- git push -u origin main
+
+Langkah 2 (Menambah file berikutnya)
+- git add .
+- git commit -m "teks bebas"
+- git push -u origin main
+
+Langkah 3 (Mengambil perubahan)
+- git pull origin main
+
+Langkah 4 (cek akun)
+- git config --global user.name
+- git config --global user.email
+- git config --global user.name "FirjaRakha"
+- git config --global user.email "firjarakhaa@gmail.com"
+- git config --global user.name "rakhfill"
+- git config --global user.email "firjarkh204@gmail.com" 
